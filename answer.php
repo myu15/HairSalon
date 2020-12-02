@@ -6,6 +6,7 @@
     <title>Hair Salon</title>
   </head>
   <body>
+    ![logo](https://user-images.githubusercontent.com/70254894/100845016-f17f9400-34bf-11eb-85d6-57514630ca18.png)
     <h1>Hair Salon</h1>
     <?php
     // index.phpより受け取った値を変数に代入
@@ -27,6 +28,7 @@
       $user='root';
       $password='root';
 
+      
       try{
         $db=new PDO($dsn,$user,$password);
         $db ->setAttribute(PDO::ATTR_EMULATE_PREPARES,false);
